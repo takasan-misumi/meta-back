@@ -8,7 +8,7 @@ CORS(app)
 # CORS設定を更新 
 CORS(app, resources={
     r"/api/*": {"origins": ["https://tech0-gen-8-step3-app-node-5.azurewebsites.net"]},
-    r"/static/*": {"origins": ["https://tech0-gen-8-step3-app-node-5.azurewebsites.net"]}
+    r"/public/*": {"origins": ["https://tech0-gen-8-step3-app-node-5.azurewebsites.net"]}
 })
 
 # In-memory store data
@@ -74,9 +74,9 @@ def get_stores():
     
 # 静的ファイルへのアクセスを提供
 @app.route('/public/images/<path:filename>')
-def static_files(filename):
-    static_folder = os.path.join(os.path.dirname(__file__), 'static/images')
-    return send_from_directory(static_folder, filename)
+def public_files(filename):
+    public_folder = os.path.join(os.path.dirname(__file__), 'static/images')
+    return send_from_directory(public_folder, filename)
 
 # Handle voting
 @app.route('/api/vote/<int:store_id>', methods=['POST'])
