@@ -75,7 +75,7 @@ def get_stores():
 # 静的ファイルへのアクセスを提供
 @app.route('/public/images/<path:filename>')
 def public_files(filename):
-    public_folder = os.path.join(os.path.dirname(__file__), 'static/images')
+    public_folder = os.path.join(os.path.dirname(__file__), 'public/images')
     return send_from_directory(public_folder, filename)
 
 # Handle voting
