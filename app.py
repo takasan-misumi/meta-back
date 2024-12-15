@@ -17,7 +17,7 @@ stores = [
         'id': 1,
         'name': "コストコ",
         'description': "大容量・大満足の会員制スーパーです。\nここならではの商品が沢山あり、面白いです。",
-        'image': /public/images/costco.jpg,  # 修正済み
+        'image': "/public/images/costco.jpg",  # 修正済み
         'votes': 60,
         'type': "retail"
     },
