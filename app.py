@@ -75,6 +75,11 @@ def index():
 @app.route('/api/stores', methods=['GET'])
 def get_stores():
     return jsonify(stores)
+    
+# 静的ファイルへのアクセスを提供
+@app.route('/static/images/<path:filename>')
+def static_files(filename):
+    return send_from_directory('static/images', filename)
 
 # Handle voting
 @app.route('/api/vote/<int:store_id>', methods=['POST'])
