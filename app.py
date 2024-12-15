@@ -41,7 +41,7 @@ stores = [
         'id': 4,
         'name': "ボンラパス", 
         'description': "高級ブランドを取りそろえた物ばかりが集まっています。お値段以上です。",
-        'image': "/static/images/ボンラパス店舗.jpg",  # 修正済み
+        'image': "/images/ボンラパス店舗.jpg",  # 修正済み
         'votes': 10,
         'type': "retail"
     },
@@ -49,7 +49,7 @@ stores = [
         'id': 5,
         'name': "西部ガスグループ",
         'description': "西部ガスグループの飲食店舗です。",
-        'image': "/static/images/saibugas.png",  # 修正済み
+        'image': "/images/saibugas.png",  # 修正済み
         'votes': 100,
         'type': "restaurant"
     },
@@ -57,7 +57,7 @@ stores = [
         'id': 6,
         'name': "鈴懸",
         'description': "鈴の最中が有名な高級和菓子店です。",
-        'image': "/static/images/鈴懸.jpg",  # 修正済み
+        'image': "/images/鈴懸.jpg",  # 修正済み
         'votes': 33,
         'type': "restaurant"
     }
