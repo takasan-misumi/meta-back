@@ -7,12 +7,8 @@ CORS(app)
 
 # CORS設定を更新 
 CORS(app, resources={
-    r"/api/*": {
-        "origins": [
-            "https://tech0-gen-8-step3-app-node-5.azurewebsites.net",
-            "http://localhost:3000"  # ローカル開発用
-        ]
-    }
+    r"/api/*": {"origins": ["https://tech0-gen-8-step3-app-node-5.azurewebsites.net"]},
+    r"/static/*": {"origins": ["https://tech0-gen-8-step3-app-node-5.azurewebsites.net"]}
 })
 
 # In-memory store data
