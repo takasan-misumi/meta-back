@@ -17,7 +17,7 @@ stores = [
         'id': 1,
         'name': "コストコ",
         'description': "大容量・大満足の会員制スーパーです。\nここならではの商品が沢山あり、面白いです。",
-        'image': "/public/images/costco.jpg",  # 修正済み
+        'image': "/images/costco.jpg",  # 修正済み
         'votes': 60,
         'type': "retail"
     },
@@ -25,7 +25,7 @@ stores = [
         'id': 2, 
         'name': "ロピア",
         'description': "出来立てピザを筆頭にプライベートブランドを多数保有しているスーパーです。",
-        'image': "/public/images/ロピア.jpg",  # 修正済み
+        'image': "/images/ロピア.jpg",  # 修正済み
         'votes': 30,
         'type': "retail"
     },
@@ -33,7 +33,7 @@ stores = [
         'id': 3,
         'name': "成城石井",
         'description': "ブランド力のあるプライベートブランドを多数取り揃えています。",
-        'image': "/public/images/成城石井店舗.png",  # 修正済み
+        'image': "/images/成城石井店舗.png",  # 修正済み
         'votes': 10,
         'type': "retail"
     },
