@@ -21,7 +21,7 @@ stores = [
         'id': 1,
         'name': "コストコ",
         'description': "大容量・大満足の会員制スーパーです。\nここならではの商品が沢山あり、面白いです。",
-        'image': "/images/costco.jpg",  # 修正済み
+        'image': "/static/images/costco.jpg",  # 修正済み
         'votes': 60,
         'type': "retail"
     },
@@ -29,7 +29,7 @@ stores = [
         'id': 2, 
         'name': "ロピア",
         'description': "出来立てピザを筆頭にプライベートブランドを多数保有しているスーパーです。",
-        'image': "/images/ロピア.jpg",  # 修正済み
+        'image': "/static/images/ロピア.jpg",  # 修正済み
         'votes': 30,
         'type': "retail"
     },
@@ -37,7 +37,7 @@ stores = [
         'id': 3,
         'name': "成城石井",
         'description': "ブランド力のあるプライベートブランドを多数取り揃えています。",
-        'image': "/images/成城石井店舗.png",  # 修正済み
+        'image': "/static/images/成城石井店舗.png",  # 修正済み
         'votes': 10,
         'type': "retail"
     },
@@ -45,7 +45,7 @@ stores = [
         'id': 4,
         'name': "ボンラパス", 
         'description': "高級ブランドを取りそろえた物ばかりが集まっています。お値段以上です。",
-        'image': "/images/ボンラパス店舗.jpg",  # 修正済み
+        'image': "/static/images/ボンラパス店舗.jpg",  # 修正済み
         'votes': 10,
         'type': "retail"
     },
@@ -53,7 +53,7 @@ stores = [
         'id': 5,
         'name': "西部ガスグループ",
         'description': "西部ガスグループの飲食店舗です。",
-        'image': "/images/saibugas.png",  # 修正済み
+        'image': "/static/images/saibugas.png",  # 修正済み
         'votes': 100,
         'type': "restaurant"
     },
@@ -61,7 +61,7 @@ stores = [
         'id': 6,
         'name': "鈴懸",
         'description': "鈴の最中が有名な高級和菓子店です。",
-        'image': "/images/鈴懸.jpg",  # 修正済み
+        'image': "/static/images/鈴懸.jpg",  # 修正済み
         'votes': 33,
         'type': "restaurant"
     }
