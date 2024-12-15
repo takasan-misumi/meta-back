@@ -73,7 +73,7 @@ def get_stores():
     return jsonify(stores)
     
 # 静的ファイルへのアクセスを提供
-@app.route('/static/images/<path:filename>')
+@app.route('/public/images/<path:filename>')
 def static_files(filename):
     static_folder = os.path.join(os.path.dirname(__file__), 'static/images')
     return send_from_directory(static_folder, filename)
