@@ -8,7 +8,7 @@ CORS(app)
 # CORS設定を更新 
 CORS(app, resources={
     r"/api/*": {"origins": ["https://tech0-gen-8-step3-app-node-5.azurewebsites.net"]},
-    r"/public/*": {"origins": ["https://tech0-gen-8-step3-app-node-5.azurewebsites.net"]}
+    r"/public/images*": {"origins": ["https://tech0-gen-8-step3-app-node-5.azurewebsites.net"]}
 })
 
 # In-memory store data
